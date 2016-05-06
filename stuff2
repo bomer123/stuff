@@ -1,0 +1,27 @@
+from datetime import datetime
+
+now = datetime.now()
+
+print'%s/%s/%s %s:%s:%s' % (now.year, now.month, now.day, now.hour, now.minute, now.second) 
+
+string = raw_input("hello what is your name") 
+
+print ("hello %s") % (string) 
+
+
+print now 
+
+print "hello world" 
+
+my_string = "hello" 
+
+list = [1,2,3] 
+
+print list
+
+print my_string
+print my_string.upper()
+print my_string.lower() 
+print len(my_string) 
+
+
